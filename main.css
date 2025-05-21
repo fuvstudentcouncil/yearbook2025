@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'MyCustomFont';
-  src: url('GentyDemo-Regular.ttf') format('ttf');
+  src: url('GentyDemo-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MyCustomFont2';
-  src: url('Truetypewriter PolyglOTT.ttf') format('ttf');
+  src: url('Truetypewriter PolyglOTT.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -28,6 +28,7 @@ body {
     color: #fbad22;
     padding: 2rem;
     font-family: 'MyCustomFont';
+    font-size: 40px;
   }
   
   main {
