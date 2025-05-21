@@ -25,10 +25,10 @@ body {
   }
   
   header {
-    color: #fbad22;
+    color: white;
     padding: 2rem;
     font-family: 'MyCustomFont';
-    font-size: 40px;
+    font-size: 25px ;
   }
   
   main {
@@ -49,9 +49,10 @@ body {
     width: 100%;
     margin-top: 20px;
     font-family: Arial, sans-serif;
-     width: 100%;
      background-color: white;
      font-family: 'MyCustomFont2';
+    table-layout: fixed;
+  border-collapse: collapse;
   }
   
   .dataframe-my-table td {
@@ -62,10 +63,25 @@ body {
   }
   
   .dataframe-my-table th {
-    color: #fbad22;
     border: 2px solid #242b68;
     font-family: 'MyCustomFont2';
     font-size: 15px;
     text-align: center;
+    position: sticky;
+  top: 0;
+  background-color: white; /* Nền để che nội dung phía sau */
+  z-index: 1;
   } 
+  
+.col-1 {
+  width: 4%;
+}
+
+.col-2-9 {
+  width: 8%;
+}
+
+.col-10-11 {
+  width: 16%;
+}
      
