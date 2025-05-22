@@ -16,10 +16,6 @@ body {
     padding: 0;
     text-align: center;
     background-color: #242b68;
-    background-image: url('[FSC] Yearbook 2025.png');
-    background-size: cover;       
-    background-repeat: no-repeat;
-    background-position:left;
     height: auto;
   overflow-y: auto;
   }
@@ -52,7 +48,7 @@ body {
      background-color: white;
      font-family: 'MyCustomFont2';
     table-layout: fixed;
-  border-collapse: collapse;
+  border: 2px solid #242b68;
   }
   
   .dataframe-my-table td {
@@ -67,18 +63,26 @@ body {
     font-family: 'MyCustomFont2';
     font-size: 15px;
     text-align: center;
+  } 
+  
+  thead th {
     position: sticky;
   top: 0;
-  background-color: white; /* Nền để che nội dung phía sau */
+  background-color: white;   
   z-index: 1;
+  border-bottom: 2px solid #242b68; 
   } 
   
 .col-1 {
-  width: 4%;
+  width: 3%;
 }
 
 .col-2-9 {
   width: 8%;
+}
+
+.col-8 {
+  width: 9%;
 }
 
 .col-10-11 {
